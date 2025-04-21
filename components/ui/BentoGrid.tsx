@@ -135,38 +135,46 @@ export const BentoGridItem = ({
             {description}
           </div>
 
-          <div className="font-sans text-lg lg:text-3xl max-w-96 font-bold z-10">
+          <div
+            className={cn(
+              "font-sans max-w-96 font-bold z-10",
+              id === 5 ? "text-base lg:text-2xl" : "text-lg lg:text-3xl"
+            )}
+          >
             {title}
           </div>
 
           {id === 2 && <GridGlobe />}
 
-          {/* Tech stack animation section */}
           {id === 3 && (
-            <div className="absolute right-0 top-0 h-full flex items-center px-4">
-              <div className="flex flex-row gap-4 h-[90%]">
-                {/* Left stack - moves top to bottom */}
-                <div className="flex flex-col gap-2 animate-[moveDownUp_12s_linear_infinite]">
-                  {leftLists.map((item, i) => (
-                    <span
-                      key={i}
-                      className="py-2 px-3 text-xs lg:text-sm opacity-70 rounded-lg text-center bg-[#10132E] whitespace-nowrap"
-                    >
-                      {item}
-                    </span>
-                  ))}
+            <div className="absolute right-0 top-0 h-full flex items-center px-4 overflow-hidden">
+              <div className="flex flex-row gap-4 h-full">
+                {/* LEFT STACK */}
+                <div className="overflow-hidden h-full">
+                  <div className="flex flex-col gap-2 animate-top-to-bottom">
+                    {leftLists.map((item, i) => (
+                      <span
+                        key={i}
+                        className="py-2 px-3 text-xs lg:text-sm opacity-70 rounded-lg text-center bg-[#10132E] whitespace-nowrap"
+                      >
+                        {item}
+                      </span>
+                    ))}
+                  </div>
                 </div>
 
-                {/* Right stack - moves bottom to top */}
-                <div className="flex flex-col gap-2 animate-[moveUpDown_12s_linear_infinite]">
-                  {rightLists.map((item, i) => (
-                    <span
-                      key={i}
-                      className="py-2 px-3 text-xs lg:text-sm opacity-70 rounded-lg text-center bg-[#10132E] whitespace-nowrap"
-                    >
-                      {item}
-                    </span>
-                  ))}
+                {/* RIGHT STACK */}
+                <div className="overflow-hidden h-full">
+                  <div className="flex flex-col gap-2 animate-bottom-to-top">
+                    {rightLists.map((item, i) => (
+                      <span
+                        key={i}
+                        className="py-2 px-3 text-xs lg:text-sm opacity-70 rounded-lg text-center bg-[#10132E] whitespace-nowrap"
+                      >
+                        {item}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

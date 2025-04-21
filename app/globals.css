@@ -84,22 +84,30 @@
   }
 }
 
-@keyframes moveUpDown {
+@keyframes move-top-to-bottom {
   0% {
-    transform: translateY(0%);
+    transform: translateY(100%);
   }
 
   100% {
-    transform: translateY(-50%);
+    transform: translateY(-100%);
   }
 }
 
-@keyframes moveDownUp {
+@keyframes move-bottom-to-top {
   0% {
-    transform: translateY(0%);
+    transform: translateY(-100%);
   }
 
   100% {
-    transform: translateY(50%);
+    transform: translateY(100%);
   }
+}
+
+.animate-top-to-bottom {
+  animation: move-top-to-bottom 10s linear infinite;
+}
+
+.animate-bottom-to-top {
+  animation: move-bottom-to-top 10s linear infinite;
 }
