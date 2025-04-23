@@ -3,7 +3,7 @@ import { title } from "process";
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -125,6 +125,13 @@ export const aboutme = [
     name: "Research Publication",
     title: "AI & Cybersecurity | Jun 2024 - Present",
   },
+  {
+    quote:
+      "Secured 2nd place out of 2000+ registrations in the 'Hack & Solve' Hackathon at Devcation, organized by GDG on campus IGDTUW.",
+    name: "Hack & Solve",
+    title: "Apr 2025",
+  },
+
   {
     quote:
       "Earned the 'Prompt Design in Vertex AI' badge from Google Cloud, demonstrating my proficiency in crafting optimized AI prompts and fine-tuning models within Vertex AI.",
