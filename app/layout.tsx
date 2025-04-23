@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Advika's Portfolio",
   description: "Modern & Minimal Portfolio",
+  icons: {
+    icon: "/jsm-logo.ico",
+  },
 };
 
 export default function RootLayout({
@@ -19,7 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link rel="icon" type="image/png" />
+        <link rel="icon" href="/jsm-logo.ico" type="image/png" sizes="32x32" />
+        <link rel="icon" href="/jsm-logo.ico" type="image/png" sizes="16x16" />
+        <link rel="icon" href="/jsm-logo.ico" type="image/png" sizes="48x48" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
