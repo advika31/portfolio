@@ -148,31 +148,25 @@ export const testimonials = [
 export const workExperience = [
   {
     id: 1,
-    title: "Machine Learning Researcher - Defence Research and Development Organization",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title:
+      "Machine Learning Researcher - Defence Research and Development Organization",
+    desc: "Worked under DRDO at SAG Lab in the field of Machine Learning, applying algorithms for optimisation processes for the laboratory purposes.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", 
+    title: "Web development Mentor - LeanIn IGDTUW",
+    desc: "Mentored 70+ students in web development, delivering 15+ interactive sessions on foundational & advanced frontend & backend tech. Provided individual guidance on 10+ projects, increasing project success rates by 50%",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Python and Machine Learning Intern - COE-AI IGDTUW",
+    desc: "Designed and evaluated machine learning models for network anomaly detection in IoT devices, optimizing accuracy with feature selection and multi-metric analysis.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp3.svg",
   },
 ];
 
