@@ -174,13 +174,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/advika31",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/x.png",
+    link: "https://x.com/advikasinghal31",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/advika-singhal-ab97a7285/",
   },
 ];
