@@ -112,38 +112,39 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
+export const aboutme = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "B.Tech in Electronics and Communication Engineering (AI specialization) from IGDTUW with a strong academic foundation and a CGPA of 8.95.",
+    name: "Indira Gandhi Delhi Technical University for Women",
+    title: "2023 - 2027",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Co-authored a research paper proposing a hybrid CNN-RNN deep learning model for anomaly detection in IoT networks, enhancing cybersecurity adaptability.",
+    name: "Research Publication",
+    title: "AI & Cybersecurity | Jun 2024 - Present",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Earned the 'Prompt Design in Vertex AI' badge from Google Cloud, demonstrating my proficiency in crafting optimized AI prompts and fine-tuning models within Vertex AI.",
+    name: "Google Cloud Skills Boost",
+    title: "Prompt Design in Vertex AI Badge",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Qualified Stage 1 of AlgoUniversity Tech Fellowship (ATF) 2024, placing in the top 3% out of 50,000+ applicants.",
+    name: "ATF 2024",
+    title: "Top Performer | Sep 2024",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Recognized for leadership and team collaboration in IEEE and Microsoft Student Chapter. Led impactful initiatives and improved digital outreach.",
+    name: "Tech Communities",
+    title: "IEEE | MSC | 2023 - Present",
   },
 ];
+
 
 export const workExperience = [
   {
