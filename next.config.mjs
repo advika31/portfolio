@@ -1,5 +1,7 @@
 import { withSentryConfig } from '@sentry/nextjs';
-import { withPlugins } from 'next-compose-plugins';
+import pkg from 'next-compose-plugins';
+
+const { withPlugins } = pkg;
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
