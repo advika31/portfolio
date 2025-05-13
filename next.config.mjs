@@ -2,8 +2,9 @@ import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
 
-const withNetlify = require('@netlify/next');
-module.exports = withNetlify();
+import withPlugins from 'next-compose-plugins';
+
+module.exports = withPlugins();
 
 export default withSentryConfig(nextConfig, {
 // For all available options, see:
