@@ -2,6 +2,9 @@ import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
 
+const withNetlify = require('@netlify/next');
+module.exports = withNetlify();
+
 export default withSentryConfig(nextConfig, {
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
