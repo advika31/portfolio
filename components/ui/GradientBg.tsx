@@ -41,23 +41,18 @@ export const BackgroundGradientAnimation = ({
   const [tgX, setTgX] = useState(0);
   const [tgY, setTgY] = useState(0);
   useEffect(() => {
-    document.body.style.setProperty(
-      "--gradient-background-start",
-      gradientBackgroundStart
-    );
-    document.body.style.setProperty(
-      "--gradient-background-end",
-      gradientBackgroundEnd
-    );
-    document.body.style.setProperty("--first-color", firstColor);
-    document.body.style.setProperty("--second-color", secondColor);
-    document.body.style.setProperty("--third-color", thirdColor);
-    document.body.style.setProperty("--fourth-color", fourthColor);
-    document.body.style.setProperty("--fifth-color", fifthColor);
-    document.body.style.setProperty("--pointer-color", pointerColor);
-    document.body.style.setProperty("--size", size);
-    document.body.style.setProperty("--blending-value", blendingValue);
-  }, []);
+    const styles = document.body.style;
+    styles.setProperty("--gradient-background-start", gradientBackgroundStart);
+    styles.setProperty("--gradient-background-end", gradientBackgroundEnd);
+    styles.setProperty("--first-color", firstColor);
+    styles.setProperty("--second-color", secondColor);
+    styles.setProperty("--third-color", thirdColor);
+    styles.setProperty("--fourth-color", fourthColor);
+    styles.setProperty("--fifth-color", fifthColor);
+    styles.setProperty("--pointer-color", pointerColor);
+    styles.setProperty("--size", size);
+    styles.setProperty("--blending-value", blendingValue);
+  }, []);  
 
   useEffect(() => {
     function move() {
