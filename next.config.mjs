@@ -1,9 +1,4 @@
 import pkg from 'next-compose-plugins';
-import dynamic from "next/dynamic";
-
-const ClientOnlyComponent = dynamic(() => import("../components/ClientOnlyComponent"), {
-  ssr: false,
-});
 
 const { withPlugins } = pkg;
 
