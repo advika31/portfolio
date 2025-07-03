@@ -92,11 +92,11 @@ export const projects = [
     des: "A platform that connects patients with doctors, allowing users to book appointments, manage their health records, and communicate with healthcare professionals.",
     img: "/p5.png",
     iconLists: [
-      "/nextjs.svg",
+      "/nextjs.png",
       "/vonage.png",
       "/tailwind.svg",
       "/prisma.svg",
-      "/shadcn.svg",
+      "/shadcn.png",
     ],
     link: "https://github.com/advika31/DocVia",
   },
