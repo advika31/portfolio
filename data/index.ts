@@ -88,6 +88,20 @@ export const projects = [
   },
   {
     id: 2,
+    title: "DocVia: Doctors Appointment Platform",
+    des: "A platform that connects patients with doctors, allowing users to book appointments, manage their health records, and communicate with healthcare professionals.",
+    img: "/p5.png",
+    iconLists: [
+      "/nextjs.svg",
+      "/vonage.png",
+      "/tailwind.svg",
+      "/prisma.svg",
+      "/shadcn.svg",
+    ],
+    link: "https://github.com/advika31/DocVia",
+  },
+  {
+    id: 3,
     title: "Amazon Prime Video Clone",
     des: "This project emulates the Amazon Prime Video interface, showcasing both UI design and basic authentication.",
     img: "/p2.webp",
@@ -95,27 +109,19 @@ export const projects = [
     link: "https://prime-tawny.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "AI Mentor-Mentee matching",
     des: "It uses a similarity-based matching algorithm to connect club members with suitable mentors based on their project requirements, interests, and expertise.",
     img: "/p3.webp",
     iconLists: ["/python.svg", "/streamlit.svg", "/sqlite.svg"],
     link: "https://mentor-mentee-matching.streamlit.app/",
   },
-  {
-    id: 4,
-    title: "AWS TypeSmart: Typing assistant",
-    des: "It enables users to personalize their typing interface for better readability and aesthetics,focusing on enhancing usability and accessibility through intuitive design and smooth functionality.",
-    img: "/p4.webp",
-    iconLists: ["/html.svg", "/css.svg", "/javascript.svg"],
-    link: "https://riyaahlawat.github.io/AWS-TypeSmart/",
-  },
 ];
 
 export const aboutme = [
   {
     quote:
-      "B.Tech in Electronics and Communication Engineering (AI specialization) from IGDTUW with a strong academic foundation and a CGPA of 8.95.",
+      "B.Tech in Electronics and Communication Engineering (AI specialization) from IGDTUW with a strong academic foundation and a CGPA of 8.85.",
     name: "Indira Gandhi Delhi Technical University for Women",
     title: "2023 - 2027",
   },
@@ -146,7 +152,7 @@ export const aboutme = [
   },
   {
     quote:
-      "Recognized for leadership and team collaboration in IEEE and Microsoft Student Chapter. Led impactful initiatives and improved digital outreach.",
+      "Active member of IEEE IGDTUW & MSC IGDTUW, contributing to various technical and community initiatives, enhancing my leadership and teamwork skills.",
     name: "Tech Communities",
     title: "IEEE | MSC | 2023 - Present",
   },
@@ -158,7 +164,7 @@ export const workExperience = [
     id: 1,
     title:
       "Machine Learning Researcher - Defence Research and Development Organization",
-    desc: "Worked under DRDO at SAG Lab in the field of Machine Learning, applying algorithms for optimisation processes for the laboratory purposes.",
+    desc: "Worked under DRDO at SAG Lab in the field of Quantum computing, applying algorithms for optimisation processes for the laboratory purposes.",
     className: "md:col-span-2",
     thumbnail: "/exp1.webp",
   },
