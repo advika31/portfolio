@@ -96,7 +96,7 @@ export const projects = [
       "/vonage.png",
       "/tailwind.svg",
       "/prisma.svg",
-      "/shadcn.png",
+      "/shadcn.pn~g",
     ],
     link: "https://github.com/advika31/DocVia",
   },
