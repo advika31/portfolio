@@ -98,7 +98,7 @@ export const projects = [
       "/prisma.svg",
       "/shadcn.pn~g",
     ],
-    link: "https://github.com/advika31/DocVia",
+    link: "https://docvia.vercel.app/",
   },
   {
     id: 3,
@@ -193,7 +193,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "/x.png",
-    link: "https://x.com/advikasinghal31",
+    link: "https://x.com/adviiikaaa",
   },
   {
     id: 3,
